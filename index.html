@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>telegram</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<div class="chat">
+			
+		  <div class="chat__header">
+				<div class="chat__headerLeft">
+					<a class="chat__link chat__link_backToChats" href="#" title="Back to our chats">Chats</a>
+				</div>
+				<div class="chat__headerCenter">
+					<a class="chat__link chat__link_name" href="#" title="Open profile">Name Name<span class="chat__status">online</span></a>
+			  </div>
+			  <div class="chat__headerRight">
+					<a class="chat__link chat__link_profileIcon" href="#" title="Open profile">N</a>
+				</div>
+				
+		  </div>
+
+			
+		  <div class="chat__content">
+				<div class="chat__contentWrapper">
+
+			  <div class="chat__message" tabindex="0">
+					<p class="chat__messageText">hi, how are you?</p>
+					<span class="chat__messageTime">10:05</span>
+					<button class="chat__messageButton" type="button" title="Delete message"></button>
+				</div>
+			
+			  <div class="chat__message" tabindex="0">
+					<p class="chat__messageText">What are you doing?</p>
+					<span class="chat__messageTime">10:06</span>
+					<button class="chat__messageButton" type="button" title="Delete message"></button>
+				</div>
+				
+			  <div class="chat__message" tabindex="0">
+					<p class="chat__messageText">Can Islamic environmentalism save Indonesia's peatlands?</p>
+					<span class="chat__messageTime">10:07</span>
+					<button class="chat__messageButton" type="button" title="Delete message"></button>
+				</div>
+
+			  </div>
+			</div>
+			
+		  <div class="chat__footer">
+				<button class="chat__clip" type="submit" title="Add file"></button>
+				<form class="chat__form" action="#" method="post">
+					<input class="chat__input" type="text" aria-label="Ваше сообщение" placeholder="Мessage..." required>
+					<button class="chat__button" type="submit" title="Send message"></button>
+				</form>
+				<button class="chat__add chat__addAudio chat__addVideo" href="#"></button>
+			</div> 
+			
+		</div>
+		
+		<template id="message-template">
+			<div class="chat__message" tabindex="0">
+				<p class="chat__messageText"></p>
+				<span class="chat__messageTime">10:05</span>
+				<button class="chat__messageButton" type="button" title="Delete message"></button>
+			</div>
+		</template>
+
+
+
+
+
+
+
+		<script src="script.js"></script>
+		
+	</body>
+</html>
+
+
+
+
+
+
